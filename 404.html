@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>arnold</title>
+    <script type="text/javascript">
+      var l = window.location.href;
+      const regex = /^((?:https?:\/\/|(?!\w+:\/\/))[^\/]+)\/(?!#)/;
+      window.location.href = l.replace(regex, '$1/#/');
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
